@@ -35,9 +35,9 @@ def cot(method, question):
         
     print('\n')    
     print("正在思考，请耐心等待......")
-#     print("所给提示是:")
-#     print(x.replace("\n\n", "\n").strip())
-#     print('*****************************')
+    print("所给提示是:")
+    print(x.replace("\n\n", "\n").strip())
+    print('*****************************')
     print('\n')
 
     max_length = args.max_length_cot if "cot" in args.method else args.max_length_direct
